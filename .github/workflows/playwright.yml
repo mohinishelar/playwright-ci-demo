@@ -37,7 +37,7 @@ jobs:
 
       - name: Run Playwright tests
         run: |
-          $cmd = "npx playwright test example.spec.js"
+          $cmd = "npx playwright test example.spec.js --project=chromium"
           if ("${{ github.event.inputs.testFile }}" -ne "") {
             $cmd = "$cmd ${{ github.event.inputs.testFile }}"
           }
