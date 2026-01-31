@@ -6,7 +6,7 @@ test('Playwright Locators Live Demo', async ({ page }) => {
   await page.goto('https://the-internet.herokuapp.com/login');
 
   // Pause to show Inspector 
- await page.pause();
+ //await page.pause();
 
   // getByLabel – Username
   await page.getByLabel('Username').fill('tomsmith');
