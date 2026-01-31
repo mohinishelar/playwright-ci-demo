@@ -32,4 +32,4 @@ jobs:
 
       # Step 5: Run Playwright tests
       - name: Run Playwright tests
-        run: npx playwright test test/Locator.spec.js
+        run: npx playwright test test/locator.spec.js
